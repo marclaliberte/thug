@@ -8,7 +8,7 @@ host = '127.0.0.1'
 port = 20000
 ident = 'thug'
 secret = 'test'
-channel = 'thug.test'
+channel = 'shiva.test'
 t_id = 'thug1'
 
 class FeedPuller(object):
