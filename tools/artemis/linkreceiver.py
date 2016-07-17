@@ -1,15 +1,17 @@
+#!/usr/bin/env python
+
 from datetime import datetime
 import hpfeeds
 import gevent
 import json
 from urlhandler import UrlHandler
 
-host = '127.0.0.1'
-port = 20000
-ident = 'thug'
-secret = 'test'
-channel = 'shiva.test'
-t_id = 'thug1'
+host = '<broker_addr>'
+port = <broker_port>
+ident = '<ident>'
+secret = '<secret>'
+channel = 'shiva.urls'
+t_id = '<ident>'
 
 class FeedPuller(object):
     def __init__(self, ident, secret, port, host, feeds):
